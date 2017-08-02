@@ -1,5 +1,10 @@
 * { box-sizing: border-box; }
 
+body {
+	/*margin: 0px auto;*/
+	padding-left: 100px;
+}
+
 h1{
 	text-align: center;
 	text-transform: uppercase;
@@ -9,7 +14,7 @@ h1{
 }
 
 article {
-    float: left;
+    display: inline-block;
     width: 20%;
     margin: 1% 1% 45px 1%;
 }
@@ -22,5 +27,33 @@ article {
 .info img {
     width: 100%;
     display: block;
+}
+
+.fullName{
+	text-transform: uppercase;
+	font-family: Arial;
+	text-align: center;
+	font-weight: 600;
+	border-bottom: 3px solid lightgreen; 
+
+}
+
+.email {
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: .75em;
+	font-weight: 100;
+	color: grey;
+}
+
+.email:after {
+    content:"\a";
+    white-space: pre;
+}
+
+.restOfInfo {
+	font-family: Arial;
+	font-size: .75em;
+	/*padding-left: 20px;*/
 }
 
