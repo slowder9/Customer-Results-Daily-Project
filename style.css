@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-weight: 800;
+	font-size: 2em;
+}
+
+article {
+    float: left;
+    width: 20%;
+    margin: 1% 1% 45px 1%;
+}
+
+.fullName .email .restOfInfo .cell {
+	position: absolute;
+    bottom: 0px;
+}
+
+.info img {
+    width: 100%;
+    display: block;
+}
+
